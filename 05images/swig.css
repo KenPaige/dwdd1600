@@ -1,0 +1,166 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+/*Headder Stuff*/
+
+header {
+    background-color: #d0312d;
+    padding: 1rem 2%;
+}
+
+header h1 {
+    margin: 0;
+    color: #fffada;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    color: #373737;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+
+/*Nav Stuff*/
+
+nav {
+    background-color: #fffada;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2%;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #d0312d;
+    font-weight: 600;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav ul .active a {
+    background-color: #d0312d;
+    color: #fffada;
+}
+
+nav a:hover {
+    color: #373737;
+}
+
+/* Main Stuff */
+
+main {
+    padding: 1rem 2%;
+}
+
+main h1 {
+    color: #d0312d;
+}
+
+main h2 {
+    color: #373737;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #373737;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5 rem 3vw;
+    background-color: #fffada;
+}
+
+main dl dt {
+    color: #373737;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #d0312d;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address.add {
+    font-style: normal;
+    background-color: #fffada;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #373737;
+    border-radius: .7rem;
+}
+
+main a:hover {
+    color: #d0312d;
+}
+
+/* Figure Stuff*/
+
+figure.cart {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+
+figure.cart img {
+    width: 100%;
+    height: auto;
+}
+
+figure.cart figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* Div Stuff */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+}
+
+/* Footer Stuff */
+
+footer {
+    background-color: #fffada;
+    text-align: center;
+    color: #373737;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear:both
+ }
+
+ footer a {
+    color: #373737;
+ }
